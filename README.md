@@ -1,5 +1,7 @@
 # KagglePractice
 using scikit learn
 
-1. breast cancer prediction, Logistic Regression VS SGD, both using default params
-2. digit recognition, LinearSVC(support vector classifier)
+Basic Model:
+1. breast cancer prediction, Logistic Regression VS SGD, using StandardScaler
+2. digit recognition, LinearSVC (support vector classifier), using StandardScaler
+3. news classification, Naive Bayes, using CountVectorizer
