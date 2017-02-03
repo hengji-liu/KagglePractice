@@ -8,3 +8,5 @@ Basic Model:
 2. digit recognition, LinearSVC (support vector classifier), using StandardScaler
 
 3. news classification, Naive Bayes, using CountVectorizer
+
+4. iris, k-nearest-neighbour, using StandardScalar 
