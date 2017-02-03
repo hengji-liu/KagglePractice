@@ -12,3 +12,5 @@ Basic Model:
 4. iris, K-Nearest-Neighbour Classifier, using StandardScalar
 
 5. titanic, Decision Tree Classifier, using DictVectorizer one-hot encoding
+
+6. titanic, Decision Tree Classifier VS Random Forest Classifier VS Gradient Boosting Classifier, using DictVectorizer one-hot encoding 
