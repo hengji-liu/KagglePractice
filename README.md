@@ -9,4 +9,6 @@ Basic Model:
 
 3. news classification, Naive Bayes, using CountVectorizer
 
-4. iris, k-nearest-neighbour, using StandardScalar 
+4. iris, K-Nearest-Neighbour, using StandardScalar
+
+5. titanic, Decision Tree, using DictVectorizer one-hot encoding
