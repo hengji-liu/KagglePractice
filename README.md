@@ -1,11 +1,13 @@
 # KagglePractice
-using scikit learn
 
-Basic Model:
+## Basic Model
 
-1. breast cancer prediction, Logistic Regression VS SGD Classifier, using StandardScaler
+**Classification**
 
-2. digit recognition, LinearSVC (support vector classifier), using StandardScaler
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|1.|breast cancer prediction|Logistic Regression VS SGD Classifier|using StandardScaler|
+|2.|digit recognition|LinearSVC (support vector classifier)|using StandardScaler|
 
 3. news classification, Multinomial Naive Bayes, using CountVectorizer
 
@@ -15,4 +17,8 @@ Basic Model:
 
 6. titanic, Decision Tree Classifier VS Random Forest Classifier VS Gradient Boosting Classifier, using DictVectorizer one-hot encoding
 
+**Regression**
+
 7. boston housing price, Linear Regression VS SGDRegressor, using StandardScaler, r2 score, mean squared error, mean absolute error
+
+8. boston housing price, Support Vector Regression, linear/poly/radial basis kernel
