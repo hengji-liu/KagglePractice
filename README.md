@@ -13,4 +13,6 @@ Basic Model:
 
 5. titanic, Decision Tree Classifier, using DictVectorizer one-hot encoding
 
-6. titanic, Decision Tree Classifier VS Random Forest Classifier VS Gradient Boosting Classifier, using DictVectorizer one-hot encoding 
+6. titanic, Decision Tree Classifier VS Random Forest Classifier VS Gradient Boosting Classifier, using DictVectorizer one-hot encoding
+
+7. boston housing price, Linear Regression VS SGDRegressor, using StandardScaler, r2 score, mean squared error, mean absolute error
