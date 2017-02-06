@@ -22,3 +22,9 @@
 |9.|Boston housing price|K Neighbour Regression|unifrom/distance-weighted|
 |10.|Boston housing price|Decision Tree Regression||
 |11.|Boston housing price|RandomForestRegressor VS. <br/> ExtraTreesRegressor VS. <br/> GradientBoostingRegressor| feature importance of ExtraTreesRegressor|
+
+**Unsupervised**
+
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|12.|Digit recognition|K-means|Adjusted Random Index| 
