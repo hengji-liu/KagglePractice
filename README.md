@@ -20,4 +20,5 @@
 |7.|Boston housing price|Linear Regression VS. <br/> SGDRegressor|StandardScaler <br/> R2 score, Mean Squared Error, Mean Absolute Error|
 |8.|Boston housing price|Support Vector Regression|linear/poly/radial basis kernel|
 |9.|Boston housing price|K Neighbour Regression|unifrom/distance-weighted|
-|10|Boston housing price|Decision Tree Regression||
+|10.|Boston housing price|Decision Tree Regression||
+|11.|Boston housing price|RandomForestRegressor VS. <br/> ExtraTreesRegressor VS. <br/> GradientBoostingRegressor| feature importance of ExtraTreesRegressor|
