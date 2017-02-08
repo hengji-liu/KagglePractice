@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55afff44-cc5b-4aa5-b5d3-3d947720437d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/data/optdigits.names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/data/optdigits.tes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/data/optdigits.tra" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/matrix_rank.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/pca_glimpse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="359">
-                <caret line="29" column="97" lean-forward="false" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+                <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -33,37 +40,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="silhouette.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12/silhouette.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elbow_method.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12/elbow_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12/train.py">
+        <entry file="file://$PROJECT_DIR$/13/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +82,10 @@
         <option value="$PROJECT_DIR$/12/train.py" />
         <option value="$PROJECT_DIR$/12/silhouette.py" />
         <option value="$PROJECT_DIR$/12/elbow_method.py" />
+        <option value="$PROJECT_DIR$/13/matrix/-rank.py" />
+        <option value="$PROJECT_DIR$/13/matrix_rank.py" />
+        <option value="$PROJECT_DIR$/13/data/train.py" />
+        <option value="$PROJECT_DIR$/13/train.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -163,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="12" />
+              <option name="myItemId" value="13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,86 +162,20 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\kaggle\13" />
+      <recent name="C:\PycharmProjects\kaggle\1" />
+      <recent name="C:\PycharmProjects\kaggle\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\kaggle\13" />
       <recent name="C:\PycharmProjects\kaggle\12\data" />
       <recent name="C:\PycharmProjects\kaggle" />
       <recent name="C:\PycharmProjects\kaggle\8" />
       <recent name="C:\PycharmProjects\kaggle\7" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\kaggle\1" />
-      <recent name="C:\PycharmProjects\kaggle\data" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.elbow_method">
-    <configuration default="false" name="train (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kaggle" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="train (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kaggle" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="train (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kaggle" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="silhouette" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kaggle" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12/silhouette.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.train (2)">
     <configuration default="false" name="elbow_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +189,74 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kaggle" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12/elbow_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="matrix_rank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kaggle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13/matrix_rank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kaggle" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\kaggle\13\pca_glimpse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kaggle" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\kaggle\13\pca_glimpse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="train (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kaggle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -407,19 +396,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.train (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.train (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.train (5)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.silhouette" />
-      <item index="4" class="java.lang.String" itemvalue="Python.elbow_method" />
+      <item index="0" class="java.lang.String" itemvalue="Python.elbow_method" />
+      <item index="1" class="java.lang.String" itemvalue="Python.matrix_rank" />
+      <item index="2" class="java.lang.String" itemvalue="Python.train" />
+      <item index="3" class="java.lang.String" itemvalue="Python.train (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.train (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.elbow_method" />
-        <item index="1" class="java.lang.String" itemvalue="Python.silhouette" />
-        <item index="2" class="java.lang.String" itemvalue="Python.train (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.train (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.train (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.train (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.train (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.train" />
+        <item index="3" class="java.lang.String" itemvalue="Python.matrix_rank" />
+        <item index="4" class="java.lang.String" itemvalue="Python.elbow_method" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +502,7 @@
         <state relative-caret-position="456">
           <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,7 +784,7 @@
         <state relative-caret-position="384">
           <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,7 +802,7 @@
         <state relative-caret-position="96">
           <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,7 +820,51 @@
         <state relative-caret-position="912">
           <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="32" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/matrix/-rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/data/optdigits.tes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/matrix_rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/pca_glimpse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,7 +873,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="359">
-            <caret line="29" column="97" lean-forward="false" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+            <caret line="29" column="84" lean-forward="false" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
             <folding />
           </first_editor>
           <second_editor />

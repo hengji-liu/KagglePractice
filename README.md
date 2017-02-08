@@ -27,4 +27,5 @@
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|12.|Digit recognition|K-means|Adjusted Random Index, <br/> Silhouette, <br/> Elbow Method, <br/> Matplotlib| 
+|12.|Digit recognition|K-means|Adjusted Random Index, <br/> Silhouette, <br/> Elbow Method, <br/> Matplotlib|
+|13.|Digit recognition|Principal Component Analysis|Matplotlib|
