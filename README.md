@@ -34,4 +34,5 @@
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|14.|News Classification|Multimonial Naive Bayes| CountVectorizer VS. <br/> TfidfVectorizer VS. <br/> both with stopwords filtering|
+|14.|News Classification|Multimonial Naive Bayes|DictVectorizer <br/> CountVectorizer VS. <br/> TfidfVectorizer VS. <br/> both with stopwords filtering|
+|15.|Titanic|Decision Tree Classifier| feature_selection by percentile|
