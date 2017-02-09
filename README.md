@@ -30,9 +30,17 @@
 |12.|Digit recognition|K-means|Adjusted Random Index, <br/> Silhouette, <br/> Elbow Method, <br/> Matplotlib|
 |13.|Digit recognition|Principal Component Analysis|Matplotlib|
 
+## Techniques
+
 **Feature Engineering**
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|14.|News Classification|Multimonial Naive Bayes|DictVectorizer <br/> CountVectorizer VS. <br/> TfidfVectorizer VS. <br/> both with stopwords filtering|
+|14.|News classification|Multimonial Naive Bayes|DictVectorizer <br/> CountVectorizer VS. <br/> TfidfVectorizer VS. <br/> both with stopwords filtering|
 |15.|Titanic|Decision Tree Classifier| feature_selection by percentile|
+
+**Regularization**
+
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|16.|Pizza price|Linear Regression|Polynominal Features, degree =2/=4|
