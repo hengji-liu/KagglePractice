@@ -29,3 +29,9 @@
 |---|-----------|-----|-----|
 |12.|Digit recognition|K-means|Adjusted Random Index, <br/> Silhouette, <br/> Elbow Method, <br/> Matplotlib|
 |13.|Digit recognition|Principal Component Analysis|Matplotlib|
+
+**Feature Engineering**
+
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|14.|News Classification|Multimonial Naive Bayes| CountVectorizer VS. <br/> TfidfVectorizer VS. <br/> both with stopwords filtering|
