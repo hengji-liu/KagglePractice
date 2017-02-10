@@ -1,0 +1,7 @@
+download the corresponding whl file from link:
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+then pip install xxx.whl
+
+the same for tensor flow
+link is
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#pip-installation-on-windows
