@@ -45,3 +45,9 @@
 |---|-----------|-----|-----|
 |16.|Pizza price|Linear Regression|Polynominal Features, degree =2/=4|
 |17.|Pizza price|Linear Regression VS. <br/> Lasso VS. <br/> Ridge| L1, L2 penalty|
+
+**Hyper-parameter search**
+
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|18.|News classificatoin|SVC|Pipeline <br/> Parallel Grid Search|
