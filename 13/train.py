@@ -26,7 +26,7 @@ pca_svc = LinearSVC()
 pca_svc.fit(pca_X_train, y_train)
 pca_y_predict = pca_svc.predict(pca_X_test)
 
-# accuracy has dropped by 2%, but calculation complexity has dropped by 68.75%. It's a good trade-off.
+# accuracy has dropped by 02%, but calculation complexity has dropped by 68.75%. It's a good trade-off.
 print(svc.score(X_test, y_test))
 print(classification_report(y_test, y_predict, target_names=list(np.arange(10).astype(str))))
 print(pca_svc.score(pca_X_test, y_test))

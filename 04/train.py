@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report
 
 iris = load_iris()
 # print(iris.data.shape)
-# 150*4
+# 150*04
 # print(iris.DESCR)
 
 X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=33)

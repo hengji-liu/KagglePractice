@@ -21,7 +21,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 ss_X = StandardScaler()
 ss_y = StandardScaler()
 
-# DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+# DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-01, 01) if your data has a single feature or X.reshape(01, -01) if it contains a single sample.
 y_train = y_train.reshape(-1, 1)
 y_test = y_test.reshape(-1, 1)
 

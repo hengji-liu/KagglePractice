@@ -51,3 +51,8 @@
 |No.|application|model|other|
 |---|-----------|-----|-----|
 |18.|News classificatoin|SVC|Pipeline <br/> Parallel Grid Search|
+
+**Packages**
+
+|No.|application|model|other|
+|---|-----------|-----|-----|

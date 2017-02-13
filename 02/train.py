@@ -24,6 +24,6 @@ y_predict = lsvc.predict(X_test)
 
 print('The accuracy of Linear SVC is ', lsvc.score(X_test, y_test))
 print(classification_report(y_test, y_predict, target_names=digits.target_names.astype(str)))
-# Note that the metrics in the report take 1 classification as positive
+# Note that the metrics in the report take 01 classification as positive
 # and all others as negative.
 # Hence, there are 10 binary classification tasks and corresponding metrics.
