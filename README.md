@@ -6,20 +6,20 @@
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|1.|Breast cancer prediction|Logistic Regression VS. <br/> SGD Classifier|StandardScaler|
-|2.|Digit recognition|LinearSVC (support vector classifier)|StandardScaler|
-|3.|News classification|Multinomial Naive Bayes|CountVectorizer|
-|4.|Iris|K-Nearest-Neighbour Classifier|StandardScalar|
-|5.|Titanic|Decision Tree Classifier|DictVectorizer <br/> One-hot encoding|
-|6.|Titanic|Decision Tree Classifier VS. <br/> Random Forest Classifier VS. <br/> Gradient Boosting Classifier|DictVectorizer <br/> One-hot encoding|
+|01.|Breast cancer prediction|Logistic Regression VS. <br/> SGD Classifier|StandardScaler|
+|02.|Digit recognition|LinearSVC (support vector classifier)|StandardScaler|
+|03.|News classification|Multinomial Naive Bayes|CountVectorizer|
+|04.|Iris|K-Nearest-Neighbour Classifier|StandardScalar|
+|05.|Titanic|Decision Tree Classifier|DictVectorizer <br/> One-hot encoding|
+|06.|Titanic|Decision Tree Classifier VS. <br/> Random Forest Classifier VS. <br/> Gradient Boosting Classifier|DictVectorizer <br/> One-hot encoding|
 
 **Regression**
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|7.|Boston housing price|Linear Regression VS. <br/> SGDRegressor|StandardScaler <br/> R2 score, Mean Squared Error, Mean Absolute Error|
-|8.|Boston housing price|Support Vector Regression|linear/poly/radial basis kernel|
-|9.|Boston housing price|K Neighbour Regression|unifrom/distance-weighted|
+|07.|Boston housing price|Linear Regression VS. <br/> SGDRegressor|StandardScaler <br/> R2 score, Mean Squared Error, Mean Absolute Error|
+|08.|Boston housing price|Support Vector Regression|linear/poly/radial basis kernel|
+|09.|Boston housing price|K Neighbour Regression|unifrom/distance-weighted|
 |10.|Boston housing price|Decision Tree Regression||
 |11.|Boston housing price|RandomForestRegressor VS. <br/> ExtraTreesRegressor VS. <br/> GradientBoostingRegressor| feature importance of ExtraTreesRegressor|
 
@@ -56,3 +56,5 @@
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
+|19.|News classificatoin||Word2Vec <br/> NLTK|
+|20.|News classificatoin|Random Forrest Classifier VS. <br/> XGB Classifier||
