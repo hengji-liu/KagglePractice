@@ -15,7 +15,7 @@ parameters = {'svc__gamma': np.logspace(-2, 1, 4), 'svc__C': np.logspace(-1, 1, 
 if __name__ == "__main__":
     # double underscore
     # print(SVC().get_params().keys())
-    # n_jobs=-01, using all cpu cores
+    # n_jobs=-1, using all cpu cores
     gs = GridSearchCV(clf, parameters, verbose=2, refit=True, cv=3, n_jobs=-1)
     gs.fit(X_train, y_train)
 

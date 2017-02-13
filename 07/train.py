@@ -22,7 +22,7 @@ print()
 ss_X = StandardScaler()
 ss_y = StandardScaler()
 
-# DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-01, 01) if your data has a single feature or X.reshape(01, -01) if it contains a single sample.
+# DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
 y_train = y_train.reshape(-1, 1)
 y_test = y_test.reshape(-1, 1)
 
@@ -42,7 +42,7 @@ sgdr = SGDRegressor()
 sgdr.fit(X_train, y_train)
 sgdr_y_predict = sgdr.predict(X_test)
 
-# score() returns R^02 score, it reflects the percentage that regression fluctuation tells the true value
+# score() returns R^2 score, it reflects the percentage that regression fluctuation tells the true value
 print('The value of default measurement of LinearRegression is', lr.score(X_test, y_test))
 print('The value of R-squared of LinearRegression is', r2_score(y_test, lr_y_predict))
 print('The mean squared error of LinearRegression is',

@@ -8,8 +8,8 @@ count_vec = CountVectorizer()
 sentence = [sent1, sent2]
 
 print(count_vec.fit_transform(sentence).toarray())
-# [[0 01 0 01 01 0 01 0 02 01 0]
-#  [01 0 01 0 0 01 0 01 01 0 01]]
+# [[0 1 0 1 1 0 1 0 2 1 0]
+#  [1 0 1 0 0 1 0 1 1 0 1]]
 
 print(count_vec.get_feature_names())
 # ['across', 'cat', 'dog', 'in', 'is', 'kitchen', 'room', 'running', 'the', 'walking', 'was']
