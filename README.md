@@ -50,11 +50,13 @@
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|18.|News classificatoin|SVC|Pipeline <br/> Parallel Grid Search|
+|18.|News classification|SVC|Pipeline <br/> Parallel Grid Search|
 
 **Packages**
 
 |No.|application|model|other|
 |---|-----------|-----|-----|
-|19.|News classificatoin||Word2Vec <br/> NLTK|
-|20.|News classificatoin|Random Forrest Classifier VS. <br/> XGB Classifier||
+|19.|News classification||Word2Vec <br/> NLTK|
+|20.|News classification|Random Forrest Classifier VS. <br/> XGB Classifier||
+|21.|Breast cancer prediction <br/> Boston housing price|Tensor Flow and its sklearn style api|CODE USING API DOES NOT WORK|
+
