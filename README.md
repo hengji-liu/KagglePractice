@@ -60,3 +60,8 @@
 |20.|News classification|Random Forrest Classifier VS. <br/> XGB Classifier||
 |21.|Breast cancer prediction <br/> Boston housing price|Tensor Flow and its sklearn style api|CODE USING API DOES NOT WORK|
 
+## Practice
+
+|No.|application|model|other|
+|---|-----------|-----|-----|
+|22.|Titanic|xgbc<br/>rfc|cv|
