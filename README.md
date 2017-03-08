@@ -1,4 +1,4 @@
-# KagglePractice
+# scikit-learn practice
 
 ## Basic Model
 
